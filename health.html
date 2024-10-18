@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title> Importance of health</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <body>
+        <div class="containerr"></div>
+        <img src="media/hlogo.png" class logo>
+       
+        <div class="navbarr">
+            
+        <h1> I keep mysepf healthy</h1>
+        <div class="music-right">
+            <p> click here to enjoy music </p>
+            <img src="media/play.png" id="icon">
+        
+            </div>
+            </div>
+            <a href="Index.html"> Back</a>
+        </div>
+    </div>
+  <audio id="mysong">
+    <source src="media/music.mp3" type="audio/mp3">
+    </audio>
+    <script>
+        var mysong = document.getElementById("mysong");
+        var icon = document.getElementById("icon");
+        icon.onclick = function()   {
+            if(mysong.paused){
+                mysong.play();
+                icon.src = "media/pause.png";
+        }else{
+            mysong.pause();
+                icon.src = "media/play.png";
+            
+        }
+        }
+   
+   </script>
+    </body>
+</head>

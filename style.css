@@ -1,0 +1,169 @@
+*
+.header {
+padding: 60px;
+width: 100%;
+text-align: center;
+background: #df4881;
+color: white;
+font-size: 30px;
+}
+
+.hero   {
+width: 100%;
+min-height: 100%;
+padding: 20px 10px; 
+background-position: center;
+background-size: contain;
+padding: 10px 10px;
+overflow: hidden;
+position: relative;
+}
+nav{
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+    color: black;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #text;
+}
+
+.btn    {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 10px;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+    margin-right: 400px;
+}
+.content    {
+margin-left: 40px;
+    margin-top: 10%;
+    max-width: 300px;
+}
+.btn:hover  { 
+    border-top-right-radius: 30px;
+    color: white
+}
+.feature-img    {
+    width: 400px;
+    position: absolute;   
+    bottom: 0%;
+    margin-top: 5%;
+    margin-right: 200px;
+   }
+
+.container  {
+    width: 360px;
+    background: black;
+    box-shadow: 0 0 8px grey;
+    opacity: 0.6;
+}
+   .container form
+    {
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        padding: 25px 20px;
+
+    } 
+      form h1
+      {padding: 10px 0;
+    }
+    form .id {
+position: relative;
+    }
+
+    form input  {
+        width: 100%;
+        height: 50px;
+        margin: 4px 0;
+        border: 1px solid;
+         padding: 0 15px;
+        font-size: 20px;
+
+    }
+
+    form textarea   {
+        padding: 5px 15px;
+        border: 1px solid;
+        border-radius: 3px;
+        font-size: 20px;
+        width: 100%;
+        margin: 4px;
+
+
+    }
+    form button{
+        margin-top: 5px ;
+        border: none;
+        background: blue;
+        color: : #222;
+        padding: 10px;
+        width: 100%;
+        Font-size: 20px;
+        font-weight: 800;
+        cursor: pointer;
+        
+    }
+
+    .feature-img{
+        width: 330px;
+        margin-left: 80%;
+        top: 70px;
+        right: 10%;
+            }
+.footer {
+    padding: 20px;
+    width: 600%;
+    text-align: center;
+    background: #df4881;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 100%;
+}
+.containerr {
+    height: 100%;
+    width: 100%;
+    background-image: url(media/hlogo.png);
+    background-position: center;
+    position: relative;
+}    
+
+    .music-right    {
+        float: left;
+        margin-left: 20%;
+        margin-top: 5%;
+        display: flex;
+        align-items: left;
+    }
+    .music-right p  {
+        font-size: 18px;
+        color: #df4881;
+        font-weight: 400;
+        margin-right: 15px;
+        }
+       #icon    {
+        width: 80px;
+        cursor: pointer;
+       } 
+
+    
+body{background: white;
+font-family: sans-serif;
+}
